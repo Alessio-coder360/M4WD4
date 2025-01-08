@@ -1,0 +1,69 @@
+.loading {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.8); 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999;
+    visibility: hidden; 
+}
+
+.spinner {
+    width: 50px;
+    height: 50px;
+    border: 5px solid rgba(0, 0, 0, 0.1);
+    border-top: 5px solid #007bff; 
+    border-radius: 50%;
+    animation: spin 1s linear infinite; 
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+
+/* pannello card */
+
+.riga1 {
+    max-width: 800px;
+    margin: 0 auto; /* Centra il pannello nella pagina */
+}
+
+.img-fluid {
+    height: 300px;
+    width: auto; 
+    object-fit: cover; 
+}
+
+.card-text {
+    margin-bottom: 0.5rem; 
+}
+
+
+
+/* footer */
+
+.background{
+    background-color:  rgb(33 34 71)!important;
+}
+
+.vociTesto > li {
+    font-size: 14px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+
+.rigaNewsL {
+    margin-left: 0;
+    margin-right: 0;
+}
